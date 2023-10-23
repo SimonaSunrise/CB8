@@ -1,0 +1,52 @@
+body {
+  background-image: url(/cardpokemon.jpg);
+  background-repeat: repeat;
+  height: 100pv;
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px auto;
+}
+
+#wrapper {
+  width: 250px;
+  height: auto;
+  background-color: blanchedalmond;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: 0 0 4px black;
+  margin: 50px auto;
+  transition: all 0.35s;
+}
+
+p {
+  text-align: justify;
+  margin: 12px;
+  height: 130px;
+}
+
+.title {
+  text-align: center;
+  color: blue;
+  background-color: peachpuff;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 0 0 4px;
+  margin: 20px;
+}
+
+.foto {
+  width: 250px;
+  height: 150px;
+  border-radius: 25px 25px 0px 0px;
+  display: block;
+}
+
+button {
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
