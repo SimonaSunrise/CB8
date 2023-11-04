@@ -14,7 +14,7 @@ function thermometer(Celsius) {
 
 console.log(thermometer(-3));
 
-<// ESERCIZIO 2
+// ESERCIZIO 2
 
 let Simona = {
   name: "Simona",
