@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+.navBar {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.titlePage {
+  font-family: "Raleway", sans-serif;
+}
+
+.cartButton,
+.searchButton {
+  border-radius: 15%;
+  border: #f9f5ea;
+  background-color: #f9f5ea;
+  width: 30px;
+  height: 30px;
+}
+
+.searchButton {
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuButton,
+.menuButtonTwo,
+.menuButtonThree,
+.menuButtonFour {
+  border-radius: 25%;
+  border: #f9f5ea;
+  background-color: #f9f5ea;
+  font-family: "Raleway", sans-serif;
+  padding: 8px;
+}
+
+.recommended {
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.titleRecommended {
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  right: 18%;
+}
+
+.robo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.robo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 160px;
+  background-color: #f9f5ea;
+  border-radius: 12px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.robo img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.robo h4,
+p {
+  margin: 4px 0;
+  padding: 4px 0;
+}
+
+.robo .text {
+  padding: 0 10px;
+}
+
+.lovebutton {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  border-radius: 80px;
+  position: absolute;
+  bottom: 85%;
+  left: 80%;
+}
+
+.addCart {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 5%;
+  left: 80%;
+  width: 25px;
+  border-radius: 80px;
+  font-size: 17px;
+}
