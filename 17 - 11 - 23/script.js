@@ -1,4 +1,4 @@
-// ESERCIZIO 1
+// ESERCIZIO 1 + AVANZATO
 const backEl = document.createElement("div");
 backEl.className = "back";
 document.body.append(backEl);
