@@ -1,0 +1,119 @@
+/* COLOR PANNA: #EEF4ED;
+COLOR TITLE: #134074:
+COLOR TEXT: #0B2545;
+COLOR UNDONE: #d80032;
+COLORE DONE: #16db65;
+COLOR TITLETEXT: #1d3461; */
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Paytone+One&family=Raleway:wght@500&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+  background-color: #eef4ed;
+  font-family: "Raleway", sans-serif;
+  color: #0b2545;
+}
+
+h1 {
+  padding-left: 15px;
+}
+.done-undone {
+  width: 100%;
+  height: 50px;
+  background-color: #1d3461;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.done-btn {
+  width: 80%;
+  height: 60%;
+  cursor: pointer;
+}
+
+.done-btn:hover {
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
+
+.date-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 4px solid #134074;
+  margin-top: 5px;
+  background-color: #8da9c4;
+  padding-top: 10px;
+}
+
+.date-container h2 {
+  margin-right: 50%;
+  padding-left: 50%;
+  text-wrap: nowrap;
+  text-shadow: #0066cc 2px 1px 0px, #8da9c4 2px 2px 0px;
+}
+.para-cl {
+  text-align: justify;
+  font-size: 14px;
+}
+.date-card {
+  width: 350px;
+  padding-left: 2px;
+  border: 2px solid #134074;
+  position: relative;
+  margin: 2px 2px;
+  background-color: #eef4ed;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.id-cl {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.status {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 40px;
+  margin-left: 2px;
+  position: relative;
+  background-color: #1d3461;
+  font-size: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(
+    bottom,
+    rgb(100, 30, 170) 0%,
+    rgb(129, 51, 212) 100%
+  );
+  box-shadow: inset 0px 1px 0px #eef4ed, 0px 6px 0px #1d3461;
+  border-radius: 5px;
+}
+
+.led-on {
+  border-radius: 50%;
+  background-color: #16db65;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 11px;
+  right: 5px;
+}
+
+.led-off {
+  border-radius: 50%;
+  background-color: #d80032;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 11px;
+  right: 5px;
+}
