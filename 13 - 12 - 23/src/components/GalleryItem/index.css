@@ -1,0 +1,7 @@
+.GalleryItem {
+  display: flex;
+  justify-content: center;
+}
+.GalleryItem img {
+  border-radius: 10px;
+}
