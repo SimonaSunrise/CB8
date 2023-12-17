@@ -1,0 +1,27 @@
+.NavBar {
+  background: #0099cc;
+  width: 100wh;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.NavBar a {
+  padding: 0 2%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.NavBar input {
+  max-width: 80px;
+}

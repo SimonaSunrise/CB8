@@ -1,0 +1,17 @@
+.Gallery {
+  display: flex;
+  flex-direction: column;
+}
+.Gallery h3 {
+  padding-left: 55px;
+}
+.Gallery__Cont {
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  padding-left: 40px;
+}
