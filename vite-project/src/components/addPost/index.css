@@ -1,0 +1,41 @@
+.AddPost {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px 24px;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+
+.AddPost input,
+.AddPost textarea {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 0;
+  border: 1px solid #003566;
+}
+
+.AddPost textarea {
+  background-image: url(https://img.freepik.com/free-photo/typical-old-italian-architecture-narrow_1203-6326.jpg?w=1060&t=st=1703171840~exp=1703172440~hmac=cf5f3dfd463c2f6b13732cafc04423b79c3555f34b53e8452bee640f473724bc);
+  width: 95%;
+  height: 150px;
+  resize: none;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+}
+
+.AddPost__btns {
+  display: flex;
+  gap: 20px;
+}
+
+.AddPost__btns button,
+.AddPost__btns input {
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
