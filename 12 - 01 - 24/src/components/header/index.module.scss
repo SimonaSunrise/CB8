@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  .Text_Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: "Pacifico", curisve;
+      font-weight: lighter;
+      font-size: 35px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      font-style: italic;
+    }
+  }
+}
