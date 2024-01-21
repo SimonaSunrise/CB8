@@ -1,0 +1,29 @@
+.Navbar {
+  background-color: #073b4c;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  font-family: "Fredericka the Great", serif;
+  margin-bottom: 10px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffd166;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

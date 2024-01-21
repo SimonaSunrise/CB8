@@ -1,0 +1,43 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  color: #fbffec;
+  transition: color 3s;
+  font-family: "Instrument Serif", serif;
+
+  h1:hover,
+  h2:hover {
+    color: #ffd166;
+  }
+  h1,
+  h2 {
+    color: #073b4c;
+    text-align: center;
+  }
+
+  p {
+    font-style: italic;
+    color: #073b4c;
+  }
+}
+.BoxTitle {
+  background-color: #ef476f;
+  color: #073b4c;
+  text-align: center;
+  padding: 20px;
+}
+
+.Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fffcf2;
+  margin-top: 10px;
+}
+
+.Contact_Link {
+  margin-top: 10px;
+  background-color: #ff70a6;
+}
