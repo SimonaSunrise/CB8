@@ -1,0 +1,48 @@
+.MainLayout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: transparent;
+  font-family: "Press Start 2P", system-ui;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  max-height: 100vh;
+  nav {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: white;
+    font-size: 11px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0 10px;
+      align-items: center;
+
+      h3 {
+        margin-left: 35px;
+        font-size: 11px;
+      }
+      img {
+        width: 40px;
+        margin-right: -15px;
+      }
+      .PokedexImg {
+        width: 80px;
+      }
+      a {
+        color: black;
+        text-decoration: underline;
+        transition: color 0.35s;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

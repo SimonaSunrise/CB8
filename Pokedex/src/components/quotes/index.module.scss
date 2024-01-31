@@ -1,0 +1,22 @@
+.Quotes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  .text {
+    color: black;
+    p {
+      font-size: 10px;
+    }
+    h2 {
+      color: rgb(200, 34, 41);
+      font-size: 8px;
+      -webkit-text-stroke: 0.1px black;
+    }
+  }
+  .pics {
+    img {
+      width: 110px;
+    }
+  }
+}

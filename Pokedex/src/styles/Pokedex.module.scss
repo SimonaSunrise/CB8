@@ -1,0 +1,86 @@
+.Pokedex {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.PokedexImageContainer {
+  position: relative;
+  width: 200px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 8px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.BaseImage {
+  width: 200px;
+}
+
+.OverlayGif {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 105px;
+}
+
+.PokedexText {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 2px solid rgb(141, 199, 63);
+  padding: 10px;
+  border-radius: 25px;
+  width: 200px;
+  height: 300px;
+  h1 {
+    text-align: center;
+  }
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  .PokedexTextQuality {
+    text-align: end;
+  }
+}
+.TextSearch {
+  margin-left: 5px;
+
+  font-size: 10px;
+}
+.Form {
+  margin: 10px;
+
+  input {
+    margin-left: 10px;
+    font-family: "Press Start 2P", "system-ui";
+  }
+}
+.FormDinamic {
+  input {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 170px;
+    background: none;
+    border: none;
+    font-size: 6px;
+    font-family: "Press Start 2P", "system-ui";
+    border-radius: 50px;
+  }
+  .GoBtn {
+    position: absolute;
+    top: 92%;
+    left: 88%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: none;
+  }
+}
