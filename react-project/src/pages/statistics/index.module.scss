@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.Statistics {
+  margin-top: 100px;
+  background-color: $primary-background-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $primary-font;
+  font-weight: bold;
+  .Statistics_ {
+    margin-top: 10px;
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    text-align: justify;
+    width: 200px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Statistics {
+    .Statistics_ {
+      width: 80%;
+    }
+  }
+}

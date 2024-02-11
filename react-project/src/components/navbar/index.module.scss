@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: $secondary-background-color;
+  color: $primary-text-color;
+  padding: 0px;
+  margin: 0;
+  font-family: $primary-font;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-variant: small-caps;
+  font-size: 30px;
+  z-index: 9999;
+  .Navbar_Left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}
