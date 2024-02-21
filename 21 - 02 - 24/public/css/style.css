@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 1px;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
