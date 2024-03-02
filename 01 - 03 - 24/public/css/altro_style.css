@@ -1,0 +1,51 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: grey;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#bookList {
+  margin-top: 20px;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.book h2 {
+  margin-top: 0;
+}
+
+.book p {
+  margin-bottom: 5px;
+}
+
+.book img {
+  max-width: 100px;
+  float: left;
+  margin-right: 10px;
+}

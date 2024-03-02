@@ -1,0 +1,15 @@
+body {
+  background-color: whitesmoke;
+}
+.nuovo {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+}

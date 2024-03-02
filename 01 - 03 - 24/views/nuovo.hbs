@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/nuovo_style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Aggiungi un libro alla collezione</h1>
+    <div class="nuovo">
+      <form action="/libri/nuovo" method="POST">
+
+        <input
+          type="text"
+          id="titolo"
+          name="titolo"
+          placeholder="Titolo libro"
+        />
+        <input
+          type="text"
+          id="autore"
+          name="autore"
+          placeholder="Autore libro"
+        />
+        <input
+          type="text"
+          id="trama"
+          name="trama"
+          placeholder="Inserisci trama"
+        />
+        <input
+          type="number"
+          id="anno"
+          name="anno"
+          placeholder="Anno pubblicaizone"
+        />
+        <input
+          type="number"
+          id="valutazione"
+          name="valutazione"
+          placeholder="Valutazione"
+        />
+
+        <input type="text" id="genere" name="genere" placeholder="Genere" />
+        <input type="submit" value="Inserisci" />
+      </form>
+    </div>
+  </body>
+</html>

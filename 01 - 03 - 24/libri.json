@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "titolo": "Il Signore degli Anelli",
+    "autore": "J.R.R. Tolkien",
+    "trama": "Un giovane hobbit di nome Frodo Baggins è incaricato di distruggere un potente anello per salvare la Terra di Mezzo dal male.",
+    "anno": 1954,
+    "valutazione": 4.5,
+    "genere": "Fantasy"
+  },
+  {
+    "id": 2,
+    "titolo": "1984",
+    "autore": "George Orwell",
+    "trama": "In un mondo totalitario, un uomo cerca di ribellarsi contro il governo oppressivo e invasivo.",
+    "anno": 1949,
+    "valutazione": 4.7,
+    "genere": "Distopia"
+  },
+  {
+    "id": 3,
+    "titolo": "Cronache del ghiaccio e del fuoco: Il Trono di Spade",
+    "autore": "George R.R. Martin",
+    "trama": "In un mondo fantastico, nobili famiglie si contendono il trono di Westeros mentre minacce oscure si avvicinano.",
+    "anno": 1996,
+    "valutazione": 4.6,
+    "genere": "Fantasy"
+  },
+  {
+    "id": 4,
+    "titolo": "Harry Potter e la Pietra Filosofale",
+    "autore": "J.K. Rowling",
+    "trama": "Un giovane mago scopre il suo destino e si imbarca in avventure magiche nella Scuola di Magia e Stregoneria di Hogwarts.",
+    "anno": 1997,
+    "valutazione": 4.8,
+    "genere": "Fantasy"
+  },
+  {
+    "id": 5,
+    "titolo": "Orgoglio e Pregiudizio",
+    "autore": "Jane Austen",
+    "trama": "Il ritratto della vita sociale e degli amori di Elizabeth Bennet nel Regno Unito del XIX secolo.",
+    "anno": 1813,
+    "valutazione": 4.4,
+    "genere": "Romanzo"
+  },
+  {
+    "id": 6,
+    "titolo": "Il Piccolo Principe",
+    "autore": "Antoine de Saint-Exupéry",
+    "trama": "Le avventure di un giovane principe proveniente da un piccolo pianeta mentre esplora l'universo.",
+    "anno": 1943,
+    "valutazione": 4.6,
+    "genere": "Letteratura"
+  },
+  {
+    "id": 7,
+    "titolo": "Moby Dick",
+    "autore": "Herman Melville",
+    "trama": "La caccia ossessiva di un capitano di nave alla balena bianca, Moby Dick.",
+    "anno": 1851,
+    "valutazione": 4.3,
+    "genere": "Romanzo"
+  },
+  {
+    "id": 8,
+    "titolo": "Don Chisciotte della Mancia",
+    "autore": "Miguel de Cervantes",
+    "trama": "Le avventure di un nobile pazzo, Don Chisciotte, e del suo scudiero, Sancho Panza, nel mondo del Medioevo.",
+    "anno": 1605,
+    "valutazione": 4.2,
+    "genere": "Romanzo"
+  },
+  {
+    "id": 9,
+    "titolo": "Il Grande Gatsby",
+    "autore": "F. Scott Fitzgerald",
+    "trama": "La storia di Jay Gatsby, un uomo misterioso e ricco, e del suo amore per Daisy Buchanan nella New York degli anni '20.",
+    "anno": 1925,
+    "valutazione": 4.4,
+    "genere": "Romanzo"
+  },
+  {
+    "id": 10,
+    "titolo": "L'ombra del vento",
+    "autore": "Carlos Ruiz Zafón",
+    "trama": "Un giovane trova un libro misterioso che lo conduce in un labirinto di segreti nel cuore di Barcellona.",
+    "anno": 2001,
+    "valutazione": 4.5,
+    "genere": "Romanzo"
+  }
+]

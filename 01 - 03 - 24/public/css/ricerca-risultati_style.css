@@ -1,0 +1,31 @@
+body {
+  background-color: whitesmoke;
+}
+.card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.info {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.author {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details p {
+  margin: 5px 0;
+}
