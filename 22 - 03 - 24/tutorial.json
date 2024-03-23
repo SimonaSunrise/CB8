@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Tutorial 1",
+        "description": "Introduction to JavaScript",
+        "length": 60,
+        "price": 0,
+        "notes": "Basic concepts and syntax"
+    },
+    {
+        "title": "Tutorial 2",
+        "description": "JavaScript Functions",
+        "length": 45,
+        "price": 0,
+        "notes": "Function declaration, parameters, and return values"
+    },
+    {
+        "title": "Tutorial 3",
+        "description": "Working with Arrays",
+        "length": 75,
+        "price": 0,
+        "notes": "Array methods and manipulation"
+    },
+    {
+        "title": "Tutorial 4",
+        "description": "Introduction to Node.js",
+        "length": 90,
+        "price": 0,
+        "notes": "Setting up Node.js environment and basic usage"
+    },
+    {
+        "title": "Tutorial 5",
+        "description": "Asynchronous JavaScript",
+        "length": 120,
+        "price": 0,
+        "notes": "Callbacks, Promises, and Async/Await"
+    },
+    {
+        "title": "Tutorial 6",
+        "description": "Introduction to MongoDB",
+        "length": 60,
+        "price": 0,
+        "notes": "Basic MongoDB concepts and CRUD operations"
+    },
+    {
+        "title": "Tutorial 7",
+        "description": "Express.js Fundamentals",
+        "length": 90,
+        "price": 0,
+        "notes": "Creating routes, handling requests, and middleware"
+    },
+    {
+        "title": "Tutorial 8",
+        "description": "React.js Basics",
+        "length": 120,
+        "price": 0,
+        "notes": "Components, props, and state management"
+    },
+    {
+        "title": "Tutorial 9",
+        "description": "Redux Overview",
+        "length": 60,
+        "price": 0,
+        "notes": "State management library for React applications"
+    },
+    {
+        "title": "Tutorial 10",
+        "description": "Building RESTful APIs with Express",
+        "length": 90,
+        "price": 0,
+        "notes": "Creating REST endpoints and handling HTTP methods"
+    }
+]
